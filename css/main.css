@@ -83,7 +83,7 @@ h1 {
 }
 
 .switch_icon.light {
-    mask-image: url(./images/icon-moon.svg);
+    mask-image: url(../images/icon-moon.svg);
 }
 
 .switch_icon:hover {
