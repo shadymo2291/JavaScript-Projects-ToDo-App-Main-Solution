@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend Mentor | Todo app">
+    <meta name="author" content="Shady Mohamed">
+    <meta property="og:title" content="Frontend Mentor | Todo app" />
+
+    <title>Frontend Mentor | Todo app</title>
+    <!-- Main css File -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container dark">
+        <main>
+
+            <!-- List Header -->
+            <header>
+                <h1>TODO</h1>
+                <div class="switch_icon"></div>
+            </header>
+
+            <!-- List Input Section -->
+            <section class="input_container">
+                <div class="icon_container">
+                    <span class="icon"></span>
+                </div>
+                <input type="text" class="input_todo" placeholder="Create a new todo...">
+            </section>
+
+            <!-- List Of Todos -->
+            <section class="todos_container">
+                <div class="items_container"></div>         
+            </section>
+
+            <div class="todos_container_footer">
+                <div class="left_todos_container">
+                    <span class="left">0</span> itmens left
+                </div>
+                <div class="choices">
+                    <span class="all selected">All</span>
+                    <span class="active">Active</span>
+                    <span class="completed">Completed</span>
+                </div>
+                <span class="clear_completed">Clear Completed</span>
+            </div>
+        </main>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
