@@ -17,8 +17,8 @@
     --header-color: #fafafa;
     --background-page-dark: #161722;
     --background-list: #25273c;
-    --background-image-dark-mobile: url(./images/bg-mobile-dark.jpg); 
-    --background-image-dark-desktop: url(./images/bg-desktop-dark.jpg); 
+    --background-image-dark-mobile: url(../images/bg-mobile-dark.jpg); 
+    --background-image-dark-desktop: url(../images/bg-desktop-dark.jpg); 
     --main-todo-color: #cacde8;
     --hover-color: #e4e5f1;
     --completed-todo: #5c5f7f;
@@ -45,7 +45,7 @@ Main Container
 
 .container.light {
     background-color: var(--hover-color);
-    background-image: url(./images/bg-desktop-light.jpg);
+    background-image: url(../images/bg-desktop-light.jpg);
 }
 
 main {
@@ -73,7 +73,7 @@ h1 {
     width: 10px;
     height: 10px;
     background-color: var(--header-color);
-    mask-image: url(./images/icon-sun.svg);
+    mask-image: url(../images/icon-sun.svg);
     mask-position: center;
     mask-repeat: no-repeat;
     mask-size: 100%;
@@ -129,7 +129,7 @@ h1 {
     height: 100%;
     display: inline-block; 
     background-color: #0fde49;
-    mask-image:  url(./images/plus.svg);
+    mask-image:  url(../images/plus.svg);
     mask-position: center;
     mask-repeat: no-repeat;
     mask-size: 15px;
@@ -350,7 +350,7 @@ input:focus {
         background-image: var(--background-image-dark-desktop);
     }
     .container.light {
-        background-image: url(./images/bg-mobile-light.jpg);
+        background-image: url(../images/bg-mobile-light.jpg);
     }
     main {
         max-width: 600px;
